@@ -1,25 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    {% if bool_refresh %}
-      <meta http-equiv="refresh" content="10" >
-    {% endif %}
-    <title>{% block title %}Cannabis Avarata SE{% endblock %}</title>
-    {% load static %}
-    <link rel="stylesheet" type="text/css" href="{% static 'css/lightbox.css' %}" />
-    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}" />
-    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
-    <link rel="icon" href="{% static 'img/favicon.ico' %}">
-  </head>
+<html lang="es">
+  {% include "head.html"%}
   <body id="body">
     <main>
       {% include "header.html"%}
 
       {% block content %}
-      
+        <!-- BODY -->
       {% endblock %}
 
+      {% include "footer.html"%}
     </main>
     {% include "scripts.html"%}
   </body>
