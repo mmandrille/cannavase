@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     
     #Agregamos nuestras apps
     'core.apps.CoreConfig',
+    'final.apps.CoreConfig',
 ]
 
 MIDDLEWARE = [

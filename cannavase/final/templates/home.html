@@ -1,0 +1,160 @@
+{% extends './basefinal.html' %}
+{% block custom_css %}
+        <!-- CUSTOM CSS -->
+        <link rel="stylesheet" href="/static/css/custom.css">
+    {% endblock %}
+{% block body_block %}
+    <main role="main">
+        <!-- PRIMERA SECCIÓN -->
+
+        <div class="container-fluid imagen-principal">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-12">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <p class="txt1-white">Nuestra misión</p>
+                            <hr class="line-g3-white">
+                            <h1 class="txt4">Mejorar la calidad de vida de las personas</h1>
+                        </div>
+                        <div class="col-lg-3 offset-lg-4">
+                            <div class="row noticias-primera-seccion">
+                                <div class="col-12">
+                                    <p class="txt1b-black">Se firmó un convenio de intercambio de saberes entre Cannava y la Cooperativa de Tabacaleros de Jujuy Ltda,</p>
+                                    <hr class="line-g1">
+                                    <p class="txt1-black">22 de Marzo 2019</p>
+                                </div>
+                            </div>
+                            <div class="row noticias-primera-seccion">
+                                <div class="col-12">
+                                    <p class="txt1b-black">Se firmó un convenio con un titulo mas largo que el que está arriba, acerda del intercambio de saberes entre Cannava y la Cooperativa de Tabacaleros de Jujuy Ltda,</p>
+                                    <hr class="line-g1">
+                                    <p class="txt1-black">22 de Marzo 2019</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- VIDEO -->
+        <div class="container-fluid video-container">
+            <div class="row padding-top-96">
+                <div class="col-lg-7 offset-2 col-12">
+                    <div class="row">
+                        <hr class="line-g3-white">
+                        <h2 class="txt3">Somos la primera empresa estatal en la producción de medicamentos derivados del cannabis de la historia Argentina.</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6 offset-3 col-12 padding-top-48">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div class="embed-responsive embed-responsive-16by9 ">
+                                <iframe class="embed-responsive-item img-rounded" src="https://www.youtube.com/embed/K_uSRryQt0M?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen onclick="gtag('event', 'Click', {'event_category': 'Web-{{ request.path }}', 'event_action': 'Click', 'event_label': 'PlayVideo'});"></iframe>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <p class="txt1-white">Cannava nace a travez de la iniciativa del Gobierno de Jujuy, con el propósito de atender y dar respuesta a una necesidad de salud pública. Elaborar medicamentos derivados del cannabis de producción local, desarrollado según los estándares de calidad y trazabilidad que requiere la actividad.</p>
+                            <a href="">
+                                <hr class="line-g1-green">
+                                <p class="txt1b-green">conoce sobre nosotros</p>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- QUE HACEMOS -->
+        <div class="container-fluid que-hacemos-container">
+            <div class="row padding-top-96">
+                <div class="col-lg-7 offset-2 col-12">
+
+                    <hr class="line-g3-black">
+                    <h2 class="txt3">Qué hacemos</h2>
+
+                </div>
+                <div class="col-lg-6 offset-3 col-12">
+                    <div class="row">
+                        <p class="txt2-green">Cannava está llevando a cabo el primer cultivo estatal de cannabis con fines científicos, medicinales y terapéuticos de la historia Argentina</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 offset-3 col-12 padding-top-48">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <hr class="line-g1">
+                            <p class="txt2b-black">Producción</p>
+                            <p class="txt1-black">Cannava tiene como premisa desarrollar métodos de cultivo que permitan que las propiedades medicinales de la planta de cannabis ean siempre iguales, garantizando su consistencia y la ausencia de pesticidas, metales pesados, moho, hongos, entre otras amenzas agricolas.</p>
+                            <a href="">
+                                <hr class="line-g1-green">
+                                <p class="txt1b-green">conocer más</p>
+                            </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <hr class="line-g1">
+                            <p class="txt2b-black">Industrialización</p>
+                            <p class="txt1-black">Desde Cannava somos los encargados de la producción local de medicamentos derivados del cannabis. Para lograr medicamentos seguros y de calidad, Cannava realizará testeos y análisis de los componentes presentes en la materia vegetal.</p>
+                            <a href="">
+                                <hr class="line-g1-green">
+                                <p class="txt1b-green">conocer más</p>
+                            </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <hr class="line-g1">
+                            <p class="txt2b-black">Investigación científica</p>
+                            <p class="txt1-black">Cannava promueve y participa de procesos de innovación e investigación científica en diferentes aspectos vinculados al cannabis medicinal.</p>
+                            <p class="txt1-black">Colabora con el Ministerio de Salud de la provincia en el diseño e implementación de los primeros ensayos clínicos para epilepsia refractaria que se van a llevar a cabo durante el año 2019</p>
+                            <a href="">
+                                 <hr class="line-g1-green">
+                                <p class="txt1b-green">conocer más</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ALIANZAS -->
+        <div class="container-fluid">
+            <div class="row padding-top-96">
+                <div class="col-lg-7 offset-2 col-12">
+
+                    <hr class="line-g3-black">
+                    <h2 class="txt3">Alianzas Estratégicas</h2>
+
+                </div>
+                <div class="col-lg-6 offset-3 col-12">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <p class="txt2-green">Un ecosistema colaborativo con instituciones gubernamentales, asociaciones civiles y empresas, actúa como soporte y resorte a las acciones de Cannava</p>
+                        </div>
+                        <div class="col-lg-12 padding-top-48">
+                            <div class="row">
+                                <div class="col">
+                                    <img src="/static/img/alianzas/Aphria_Logo.jpg" alt="" style="width: 100%;">
+                                </div>
+                                <div class="col">
+                                    <img src="/static/img/alianzas/Blueberries_Logo.jpg" alt="" style="width: 100%;">
+                                </div>
+                                <div class="col">
+                                    <img src="/static/img/alianzas/CannMedJuj_Logo.jpg" alt="" style="width: 100%;">
+                                </div>
+                                <div class="col">
+                                    <img src="/static/img/alianzas/CTJ_Logo.jpg" alt="" style="width: 100%;">
+                                </div>
+                                <div class="col">
+                                    <img src="/static/img/alianzas/GreenLeaf_Logo.jpg" alt="" style="width: 100%;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <a href="">
+                                <hr class="line-g1-green">
+                                <p class="txt1b-green">conocer más</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+{% endblock %}

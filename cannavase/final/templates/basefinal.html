@@ -1,0 +1,147 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <!-- META -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap-4-3-1/bootstrap.min.css' %}" />
+
+    {% block custom_css %}
+        <!-- CUSTOM CSS -->
+        <link rel="stylesheet" href="/static/css/custom.css">
+    {% endblock %}
+
+
+    <!--ANIMACIONES CSS-->
+    <link rel="stylesheet" href="{% static "/css/animate.min.css" %}">
+
+
+    <title>{% block title %}{% endblock %}</title>
+    <link href="" rel="shortcut icon">
+    <meta name="theme-color" content="#6766eb">
+    {% block meta_tags %}
+        {#        este title ya no se usa aparentemente para rankear#}
+        <meta name="Title" content="">
+        <meta name="description"
+              content="">
+        <meta name="keywords"
+              content="">
+    {% endblock %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Newbrick S.A.">
+
+
+</head>
+<body>
+
+
+<header role="heading">
+
+    <nav class="navbar pb-15 navbar-light bg-light fixed-top padding-top-48" id="mainNav" data-toggle="sticky-onscroll" style="z-index: 1091 !important;">
+
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="/"><img src="/static/img/Logo_Cannava_Solo_800px.png" alt="" title="" class="img-fluid" style="width: 202px;"/></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav ml-auto mt-10">
+                    <li class="nav-item active">
+                        <a class="nav-link" rel=”canonical” href="">aaaa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" rel=”canonical” href="">bbbb</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+</header>
+
+{% block body_block %}
+
+{% endblock %}
+
+<!-- COMIENZA FOOTER -->
+<footer>
+    <div class="container-fluid footer-container">
+        <div class="col-lg-7 offset-2 col-12 padding-top-48">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="/static/img/Logo_Cannava_H_1000px.png" alt="" style="width: 100%;">
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 offset-3 col-12 padding-top-48">
+            <div class="row">
+                <div class="col-lg-2">
+                    <hr class="line-g1">
+                    <p>Somos</p>
+                </div>
+                <div class="col-lg-2">
+                    <hr class="line-g1">
+                    <p>Somos</p>
+                </div>
+                <div class="col-lg-2">
+                    <hr class="line-g1">
+                    <p>Somos</p>
+                </div>
+                <div class="col-lg-2">
+                    <hr class="line-g1">
+                    <p>Somos</p>
+                </div>
+                <div class="col-lg-2">
+                    <hr class="line-g1">
+                    <p>Somos</p>
+                </div>
+                <div class="col-lg-2">
+                    <hr class="line-g1">
+                    <p>Somos</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 offset-3 col-12">
+            <div class="row">
+                <div class="col-lg-12">
+                    <hr class="line-g1">
+                </div>
+                <div class="col-lg-4">
+                    <img src="/static/img/Logo_GobJuj_H_500px.png" alt="" style="width: 100%;">
+                </div>
+                <div class="col-lg-2 offset-lg-1">
+                    <img src="/static/img/Logo_Juj_400px.png" alt="" style="width: 100%;">
+                </div>
+                <div class="col-lg-3 offset-lg-2">
+                    <p>© Cannabis Avatara SE 2019</p>
+                    <p>Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>        
+    </div>
+
+</footer>
+
+<script src="/static/js/bootstrap-4-1-3/bootstrap.min.js"></script>
+
+<!--INICIALIZADOR DE ANIMACIONES POR SCROLL-->
+<script src="/static/js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+</body>
+
+
+</html>

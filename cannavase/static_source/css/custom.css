@@ -1,0 +1,131 @@
+@font-face {
+    font-family: FivoSansModern-Regular;
+    src: url('/static/fonts/FivoSansModern-Regular.otf') format("opentype");
+}
+
+@font-face {
+    font-family: FivoSansModern-Bold;
+    font-weight: bold;
+    src: url('/static/fonts/FivoSansModern-Bold.otf') format("opentype");
+}
+
+
+@font-face {
+    font-family: UniversLTStd-Regular;
+    src: url('/static/fonts/UniversLTStd.otf') format("opentype");
+}
+
+@font-face {
+    font-family: UniversLTStd-Bold;
+    font-weight: bold;
+    src: url('/static/fonts/UniversLTStd-Bold.otf') format("opentype");
+}
+
+
+
+.imagen-principal {background-image: url(/static/img/HomeTest.jpg); background-size: cover; min-height: 630px; color: white; padding-top: 80px;}
+.video-container {background-color: #1b1e21; color: white;}
+.que-hacemos-container {background-color: #e9e9eb;}
+.footer-container {background-color: #008534;}
+.noticias-primera-seccion{background-color: #008534;}
+
+
+.padding-top-96 {padding-top: 96px;}
+.padding-top-48 {padding-top: 48px;}
+
+.line-g3-white{
+    border-top: 8px solid rgba(255,255,255,1); margin-bottom: 5px !important;
+    width: 100%;
+}
+.line-g3-black{
+    border-top: 8px solid rgba(0,0,0,1); margin-bottom: 5px !important;
+}
+.line-g1{
+    border-top: 2px solid rgba(0,0,0,1); margin-bottom: 5px !important;
+}
+.line-g1-green{
+    border-top: 2px solid rgba(0,133,52,1); margin-bottom: 5px !important;
+}
+.line-g2-black{
+    border-top: 4px solid rgba(0,0,0,1); margin-bottom: 5px !important;
+}
+
+.txt1-white{
+    font-family: UniversLTStd-Regular;
+    color: white;
+}
+.txt1-black{
+    font-family: UniversLTStd-Regular;
+    color: black;
+}
+.txt1-green{
+    font-family: UniversLTStd-Regular;
+    color: #008534;
+}
+.txt1b-white{
+    font-family: UniversLTStd-Bold;
+    color: white;
+}
+.txt1b-black{
+    font-family: UniversLTStd-Bold;
+    color: black;
+}
+.txt1b-green{
+    font-family: UniversLTStd-Bold;
+    color: #008534;
+}
+.txt4{
+    font-family: FivoSansModern-Bold;
+    font-size: 3rem;
+}
+.txt4-white{
+    font-family: FivoSansModern-Bold;
+    font-size: 3rem;
+    color: white;
+}
+.txt3{
+    font-family: FivoSansModern-Bold;
+    font-size: 2rem;
+}
+.txt3-green{
+    font-family: FivoSansModern-Bold;
+    font-size: 2rem;
+    color: #008534;
+}
+.txt2-green{
+    font-family: UniversLTStd-Regular;
+    color: green;
+    font-size: 1.5rem;
+}
+.txt2-black{
+    font-family: UniversLTStd-Regular;
+    color: black;
+    font-size: 1.5rem;
+}
+.txt2b-black{
+    font-family: UniversLTStd-Bold;
+    color: black;
+    font-size: 1.5rem;
+}
+
+
+
+@media (min-width: 320px) {
+
+}
+
+@media (min-width: 767px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1400px) {
+
+}
